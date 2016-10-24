@@ -1,2 +1,2 @@
-M ehekatl/docker-nginx-http2
-COPY . /usr/share/nginx/html
+FROM ehekatl/docker-nginx-http2
+COPY static-html-directory /usr/share/nginx/html
